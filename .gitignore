@@ -11,3 +11,14 @@ npm-debug.*
 source/css/*.css
 source/css/*.map
 Thumbs.db
+gulp
+source
+.editorconfig
+.eslintgnore
+.eslintrc
+.gitattributes
+.stylelintrc
+.json
+eslintconfig.
+cjs
+gulpfile.json
