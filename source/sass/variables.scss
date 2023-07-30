@@ -5,7 +5,20 @@
 
 $color-default-black:               #000000;
 $color-default-white:               #ffffff;
-$color-transparent:                 rgba(255, 255, 255, 0);
+$color-description:                 rgba(35, 35, 64, 0.90);
+$color-title:                       #232340;
+
+$color-link:                        #5468E7;
+$color-link-active:                 #2b3373;
+
+$color-footer:                      #f5f5f5;
+
+$color-button:                      #5468E7;
+
+$color-default-bg:                  #ffffff;
+$color-secondary-bg:                rgba(35,35,65,1);
+
+$color-transparent:                 #000;
 
 // Project palette
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
@@ -27,7 +40,7 @@ $fz-default:                        16px;
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13
 $ff-rouble:                         "Rouble", "Arial", sans-serif;
 
-$ff-placeholder:                    "Placeholder", "Arial", sans-serif;
+$ff-placeholder:                    "Open Sans", sans-serif;
 
 // Animation
 // ---------------------------------
