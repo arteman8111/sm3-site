@@ -1,32 +1,35 @@
-// Vendor
-// ---------------------------------
-
+// basic vendor
 @import "vendor/normalize";
-// Swiper 7.4.1
-// @import "vendor/swiper";
+@import "vendor/swiper";
 
-// Global
-// ---------------------------------
-
+// global
 @import "variables";
 @import "mixins";
 @import "global/fonts";
 @import "global/reboot";
-@import "global/utils";
 @import "global/container";
+@import "global/utils";
+// Blocks custom
+// @import "blocks/modal";
+// @import "blocks/custom-btn";
+// @import "blocks/custom-input";
+// @import "blocks/custom-toggle";
+// @import "blocks/custom-select";
+@import "custom/btn-up";
 
-// Blocks
-// ---------------------------------
-
-@import "blocks/btn";
-@import "blocks/modal";
-@import "blocks/custom-input";
-@import "blocks/custom-toggle";
-@import "blocks/custom-select";
+// Blocks section
 @import "blocks/preview";
 @import "blocks/navigation";
 @import "blocks/info";
-@import "blocks/footer"
+@import "blocks/footer";
+@import "blocks/slider";
+@import "blocks/programms";
+@import "blocks/header";
+@import "blocks/backmenu";
+@import "blocks/about";
+@import "blocks/breadcrumbs";
+@import "blocks/entrant"
+
 // ---------------------------------
 
 // ❗❗❗ запрещено использовать изображения в css, касается как jpg \ png, так и svg

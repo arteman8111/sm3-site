@@ -1,0 +1,41 @@
+.backmenu {
+  right:50px;
+  position: absolute;
+  width: 250px;
+}
+.backmenu__list {
+  margin: 0;
+  padding: 12px 0;
+  list-style: none;
+  font-size: $fz-default;
+  line-height: $lh-default;
+  box-shadow: 0 4px 6px 0 rgba(100,100,100,.1);
+}
+.backmenu__item:first-child {
+  padding: 12px 32px;
+  display: block;
+}
+.backmenu__link {
+  display: block;
+  padding: 12px 32px;
+}
+.backmenu__link:hover {
+  background-color: $color-link;
+  color: $color-default-white;
+}
+.backmenu__link:active {
+  background-color: $color-link-active;
+  color: $color-default-white
+}
+.backmenu__title {
+  font-size: $fz-normal;
+  font-weight: 700;
+  line-height: $lh-normal;
+}
+.backmenu__link--current {
+  font-weight: 700;
+}
+.backmenu__link--current:hover {
+  background-color: $color-default-white;
+  color: $color-default-black;
+}

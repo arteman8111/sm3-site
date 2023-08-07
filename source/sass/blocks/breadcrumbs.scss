@@ -1,0 +1,35 @@
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.breadcrumbs__item {
+  margin-right: 0.5rem;
+}
+
+.breadcrumbs__item::after {
+  margin-left: 0.5rem;
+  content: "\203A";
+  display: inline-block;
+  font-weight: 400;
+  font-size: $fz-normal;
+  line-height: $lh-default;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.breadcrumbs .breadcrumbs__item:last-child::after {
+  display: none;
+}
+.breadcrumbs__link {
+  color: $color-link;
+  text-decoration: underline;
+
+
+}

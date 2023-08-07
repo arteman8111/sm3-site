@@ -1,0 +1,73 @@
+.about {
+  background-color: $color-default-white;
+  box-shadow: 0 4px 6px 0 rgba(100,100,100,.1);
+  padding:20px;
+  font-size: $fz-default;
+  line-height:$lh-default;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin-right: auto;
+  margin-top:20px
+}
+.about__box {
+  margin-bottom: 50px;
+}
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-size: $fz-normal;
+  line-height: $lh-normal;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.about__description {
+  font-size: $fz-default;
+  line-height: $lh-default;
+  margin: 0;
+  padding: 20px;
+  padding-left:0;
+  border-bottom: 1px solid #f2f2f2
+}
+.about__item {
+  margin-left: 20px;
+}
+.about__teacher {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+.about__teacher-description {
+  padding: 10px;
+}
+.about__info {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap:wrap;
+  border-bottom: 1px solid #dadada;
+}
+.about__info-title {
+  flex: 0 0 25%;
+}
+.about__img-icon {
+  object-fit: cover;
+}
+.about__img {
+  background-color: #f2f2f2;
+  gap: 40px;
+  display: flex;
+}
+.about__info-title {
+  font-weight: 700;
+}
+.about__name {
+  font-size: $fz-middle;
+  line-height: $lh-middle;
+  font-weight: 700;
+  color: $color-description;
+}
+.about__description-awards {
+  margin: 0;
+  display: flex;
+}

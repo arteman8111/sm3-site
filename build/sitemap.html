@@ -6,30 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="">
-  <title>Главная</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+  <title>Главная</title>
 </head>
 
-<body>
-  <header class="main-header">
+<body class="wrapper">
+  <div class="btn-up btn-up--hide"></div>
+  <header class="main-header header">
     <div class="preview">
       <div class="container">
         <nav class="preview__nav navigation">
-          <div class="preview__logo">СМ3</div>
+          <div class="preview__logo">
+            <a class="preview__logo-link" href="sitemap.html">СМ3</a>
+          </div>
           <ul class="navigation__list">
-            <li class="navigation__item"><a class="navigation__link" href="#">Главная</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#">О кафедре</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#">Поступающим</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#">Обучающимся</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#">Лаборатории</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#">Научная деятельность</a></li>
-            <!-- <li class="navigation__item"><a class="navigation__link" href="#">Полезные ссылки</a></li> -->
-            <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="about.html">О кафедре</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="entrant.html">Поступающим</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="student.html">Обучающимся</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="laboratory.html">Лаборатории</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="scientific.html">Научная деятельность</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="news.html">Новости</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
         <h1 class="preview__title">СМ3 МГТУ им. Н.Э. Баумана</h1>
         <p class="preview__description">Динамика и управление полетом ракет и космических аппаратов</p>
-        <button class="preview__button">Программы кафедры</button>
+        <button class="preview__button" type="button">Программы кафедры</button>
       </div>
     </div>
   </header>
@@ -39,15 +42,15 @@
         <ul class="info__list">
           <li class="info__item">
             <div class="info__block">
-              <h1 class="info__title">О кафедре</h1>
+              <h2 class="info__title">О кафедре</h2>
               <p class="info__description">С 2007 года по 2023 год заведующим кафедрой был генеральный конструктор ПАО
                 «РКК
                 «Энергия» имени С.П. Королева», летчик-космонавт, дважды Герой Советского Союза, лауреат Государственной
                 премии РФ, академик РАН, доктор технических наук, профессор Соловьев Владимир Алексеевич.</p>
               <a href="#" class="info__link">Читать подробнее</a>
             </div>
-            <img src="../img/image/info-about.png" alt="Картинка с космонавтом" class="info__img" width="550"
-              height="450">
+            <img src="../img/image/info-cosmo.jpg" alt="Картинка с космонавтом" class="info__img" width="350"
+              height="350">
           </li>
           <li class="info__item">
             <div class="info__block">
@@ -57,17 +60,17 @@
                 космического пространства, морских глубин.</p>
               <a href="#" class="info__link">Читать подробнее</a>
             </div>
-            <img src="../img/image/info-education.png" alt="Обучение" class="info__img" width="550" height="450">
+            <img src="../img/image/info-cosmo.jpg" alt="Обучение" class="info__img" width="350" height="350">
           </li>
           <li class="info__item">
             <div class="info__block">
-              <h1 class="info__title">Новости кафедры</h1>
+              <h2 class="info__title">Новости кафедры</h2>
               <p class="info__description">Тут вы можете найти все актуальные новости нашей кафедры, также рекомендуется
                 для
                 ознакомления абитуриентам</p>
               <a href="#" class="info__link">Читать подробнее</a>
             </div>
-            <img src="../img/image/info-postman.png" alt="Текст" class="info__img" width="550" height="450">
+            <img src="../img/image/info-cosmo.jpg" alt="Текст" class="info__img" width="350" height="350">
           </li>
           <li class="info__item">
             <div class="info__block">
@@ -84,11 +87,11 @@
               <a href="#" class="info__link">Читать подробнее</a>
               </p>
             </div>
-            <img src="../img/image/info-laboratory.png" alt="Текст" class="info__img" width="550" height="450">
+            <img src="../img/image/info-cosmo.jpg" alt="Текст" class="info__img" width="350" height="350">
           </li>
           <li class="info__item">
             <div class="info__block">
-              <h1 class="info__title">Научная деятельность</h1>
+              <h2 class="info__title">Научная деятельность</h2>
               <p class="info__description">
               <ul class="info__description-list">
                 <li class="info__description-item">Конференции</li>
@@ -100,19 +103,95 @@
               <a href="#" class="info__link">Читать подробнее</a>
               </p>
             </div>
-            <img src="../img/image/info-scientific.png" alt="Текст" class="info__img" width="550" height="450">
+            <img src="../img/image/info-cosmo.jpg" alt="Текст" class="info__img" width="350" height="350">
           </li>
         </ul>
       </div>
     </section>
-    <section class="enterprices ui-slider js swiper-js">
+    <section class="swiper-box">
+      <h2 class="swiper-box__title">Целевые предприятия</h2>
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-energia.png" alt="«Энергия»" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-geodez.jpg" alt="«Геодез»" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-hrunichev.png" alt="Хруничева»" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-mit.svg" alt="МИТ»" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-rks.png" alt="«РКС»" class="swiper-img" width="250" height="250">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-tsiimash.png" alt="«ЦНИИИМАЩ»" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/swiper/swiper-uchered.jpg" alt="«Учеред»" class="swiper-img">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="programms">
       <div class="container">
-        <h1 class="enterprices__title">Целевые предприятия</h1>
-        <ol class="enterprices__list">
-          <li class="enterprices__item">РКС</li>
-          <li class="enterprices__item">«Энергия»</li>
-          <li class="enterprices__item">ЦНИИМАШ</li>
-        </ol>
+        <h2 class="programms__title">Направления подготовки</h2>
+        <div class="post-wrap">
+          <a href="#" class="post-item">
+            <div class="item-content">
+              <div class="item-icon group">
+                <svg width="45" height="45">
+                  <use xlink:href="img/sprite.svg#icon-upravlenie"></use>
+                </svg>
+              </div>
+              <div class="item-body">
+                <h3>Направление специализации №1</h3>
+                <p>Управление полетами автоматических и пилотируемых космических аппаратов</p>
+              </div>
+              <div class="item-footer">
+                <p class="link"><span>Подробнее</span></p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="post-item">
+            <div class="item-content">
+              <div class="item-icon tree">
+                <svg width="45" height="45">
+                  <use xlink:href="img/sprite.svg#icon-proectirovanie"></use>
+                </svg>
+              </div>
+              <div class="item-body">
+                <h3>Направление специализации №2</h3>
+                <p class="item-body-description">Проектная баллистика ракет и космических систем</p>
+              </div>
+              <div class="item-footer">
+                <p class="link link-fix"><span>Подробнее</span></p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="post-item">
+            <div class="item-content">
+              <div class="item-icon anchor">
+                <svg width="45" height="45">
+                  <use xlink:href="img/sprite.svg#icon-agm"></use>
+                </svg>
+              </div>
+              <div class="item-body">
+                <h3>Направление специализации №3</h3>
+                <p>Аэродинамика ракет и космических транспортных систем</p>
+              </div>
+              <div class="item-footer">
+                <p class="link"><span>Подробнее</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -124,35 +203,17 @@
         <span class="footer__copyright">2023 © СМ3 МГТУ им Н.Э. Баумана</span>
       </div>
       <div class="footer__links">
-        <div class="footer__content">
-          <h3 class="footer__title">Содержание</h3>
-          <a href="#" class="footer__link">Главная</a>
-          <a href="#" class="footer__link">О кафедре</a>
-          <a href="#" class="footer__link">Поступающим</a>
-          <a href="#" class="footer__link">Обучающимся</a>
-          <a href="#" class="footer__link">Новости кафедры</a>
-          <a href="#" class="footer__link">Лаборатории</a>
-          <a href="#" class="footer__link">Научная деятельность</a>
-          <a href="#" class="footer__link">Выпусники</a>
-          <a href="#" class="footer__link">Полезные ссылки</a>
-          <a href="#" class="footer__link">Контакты</a>
-        </div>
-        <div class="footer__useful">
-          <h3 class="footer__title">Полезные ссылки</h3>
-          <a href="#" class="footer__link">info@#mail.ru</a>
-          <a href="#" class="footer__link">8-888-888-88-88</a>
-          <a href="#" class="footer__link">1-ая Баумнаская г.Москва</a>
-        </div>
+        <h3 class="footer__title">Контакты</h3>
         <div class="footer__contacts">
-          <h3 class="footer__title">Контакты</h3>
-          <a href="#" class="footer__link">kafsm3@bmstu.ru</a>
-          <a href="#" class="footer__link">+7 (499) 261-45-90</a>
-          <a href="#" class="footer__link">ПН-ПТ 10:00–17:00, перерыв 12:00–13:00 Госпитальный пер., 10,
-            г. Москва</a>
+          <a href="mailto:kafsm3@bmstu.ru" class="footer__item footer__link">kafsm3@bmstu.ru</a>
+          <span class="footer__item footer__link">ПН-ПТ 10:00–17:00, перерыв 12:00–13:00</span>
+          <a href="tel:+74992614590" class="footer__item footer__link">+7 (499) 261-45-90</a>
+          <span class="footer__item"> Госпитальный пер., 10, г. Москва</span>
         </div>
       </div>
     </div>
   </footer>
 </body>
-
+<script src="js/vendor.min.js"></script>
+<script src="js/main.min.js"></script>
 </html>

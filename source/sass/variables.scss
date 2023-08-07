@@ -1,8 +1,3 @@
-// Colors
-// ---------------------------------
-
-// Default
-
 $color-default-black:               #000000;
 $color-default-white:               #ffffff;
 $color-description:                 rgba(35, 35, 64, 0.90);
@@ -15,7 +10,7 @@ $color-footer:                      #f5f5f5;
 
 $color-button:                      #5468E7;
 
-$color-default-bg:                  #ffffff;
+$color-default-bg:                  #fafafa;
 $color-secondary-bg:                rgba(35,35,65,1);
 
 $color-transparent:                 #000;
@@ -34,13 +29,25 @@ $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0
 // ---------------------------------
 
 // переменная используемая в html для подключения скейлинга
-$fz-default:                        16px;
+$fz-default:                        10px;
+$lh-default:                        16px;
+
+$fz-normal:                         13px;
+$lh-normal:                         21px;
+
+$fz-h3:                             17px;
+$lh-h3:                             21px;
+
+$fz-middle:                         21px;
+$lh-middle:                         27px;
+
+$fz-big:                            34px;
+$lh-big:                            42px;
 
 // у некоторых шрифтов в ios возникают проблемы с символом рубля
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13
 $ff-rouble:                         "Rouble", "Arial", sans-serif;
-
-$ff-placeholder:                    "Open Sans", sans-serif;
+$ff-sans:                    "Open Sans", sans-serif;
 
 // Animation
 // ---------------------------------

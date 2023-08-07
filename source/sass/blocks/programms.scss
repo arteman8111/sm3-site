@@ -1,0 +1,126 @@
+.programms {
+  background-color: $color-default-bg;
+  padding-bottom: 50px;
+}
+.programms__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+
+}
+.programms__title {
+  margin: 0;
+  text-align: center;
+  font-size: $fz-middle;
+  line-height: $lh-middle;
+}
+
+//
+.post-wrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+.post-item {
+  cursor: pointer;
+  flex-basis: 250px;
+  box-shadow: 0 16px 24px 0 rgba(118,118,178,.24);
+}
+.post-item:not(:last-child) {
+  margin-right: 45px;
+}
+.post-item * {
+  transition: .3s linear;
+}
+.item-content {
+  min-height: 350px;
+  background-color: $color-default-white;
+  padding: 40px;
+  font-size: $fz-normal;
+  line-height: $lh-normal;
+}
+.item-icon {
+  margin-bottom: 20px;
+}
+.item-icon:before {
+  content: "";
+  font-family: $ff-sans;
+  color: #F09EA3;
+  font-size: $fz-big;
+  line-height: $lh-big;
+}
+.post-item:hover .item-icon, .post-item:hover .item-body h3, .post-item:hover .item-body p {
+  transform: translateY(-8px);
+}
+.item-body {
+  color: $color-default-black;
+}
+.item-body h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  transition-delay: .05s;
+}
+.item-body p {
+  transition-delay: .1s;
+}
+.item-footer {
+  padding-top: 15px;
+}
+.link {
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding-right: 30px;
+  font-size: $fz-default;
+  line-height: $lh-default;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-default-black;
+}
+.link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: .125rem;
+  margin: auto;
+  background: $color-default-black;
+  transform: scaleX(.2);
+  transform-origin: left center;
+  z-index: 0;
+  transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.link span {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-200%);
+  transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.post-item:hover .link span {
+  transform: translateX(0%);
+}
+.post-item:hover .link:before {
+  transform-origin: right center;
+}
+.link-fix {
+  margin-top: 35px;
+}
+/*
+@media (min-width: 768px) {
+  .post-item {
+     flex-basis: 50%;
+     flex-shrink: 0;
+  }
+}
+@media (min-width: $vp-1440) {
+  .post-item {
+     flex-basis: 33.333333333%;
+  }
+}
+*/
