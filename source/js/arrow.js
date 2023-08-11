@@ -1,7 +1,5 @@
-// Constans
-const btnUp = document.querySelector('.btn-up');
-// Functions
 function toggleEventHandler() {
+  const btnUp = document.querySelector('.btn-up');
   const scrollY = window.scrollY || document.documentElement.scrollTop;
   if (scrollY > 400) {
     btnUp.classList.remove('btn-up--hide');
@@ -19,5 +17,9 @@ function smoothEventHandler() {
     })
   );
 }
-
-window.addEventListener('scroll', toggleEventHandler);
+function clickArrow() {
+  if (window !== null) {
+    window.addEventListener('scroll', toggleEventHandler);
+  }
+}
+clickArrow();

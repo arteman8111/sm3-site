@@ -5,6 +5,8 @@
   padding: 15px 0;
 }
 .footer {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 350px 1fr;
   column-gap: 50px;

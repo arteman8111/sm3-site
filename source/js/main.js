@@ -1,3 +1,7 @@
 import './arrow';
 import './anchor';
-import './slider';
+import './news-anchor';
+// import './modal';
+import clickSlider from './slider';
+
+clickSlider();
