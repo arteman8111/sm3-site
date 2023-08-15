@@ -2082,6 +2082,10 @@ button,
   display: flex;
 }
 
+.about__box .about__img {
+  margin: 10px 5px;
+}
+
 .breadcrumbs__list {
   margin: 0;
   padding: 0;
